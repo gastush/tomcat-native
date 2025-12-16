@@ -181,6 +181,7 @@ extern ENGINE *tcn_ssl_engine;
                                 "Enter pass phrase:"
 
 #define SSL_CIPHERS_ALWAYS_DISABLED         ("!aNULL:!eNULL:!EXP:")
+#define SSL_CIPHERS_LIST_ALL                ("ALL")
 
 #if defined(SSL_OP_NO_TLSv1_1)
 #define HAVE_TLSV1_1
